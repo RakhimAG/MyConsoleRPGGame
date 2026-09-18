@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyString.cpp">
+      <Filter>MyContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="CombatCharacter.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>InventorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>InventorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPotion.cpp">
+      <Filter>InventorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>InventorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Ork.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="RandInt.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleCharacter.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="KillQuest.cpp">
+      <Filter>QuestSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GatherQuest.cpp">
+      <Filter>QuestSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Area.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyItem.cpp">
+      <Filter>InventorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TraderCivilian.cpp">
+      <Filter>Civilians</Filter>
+    </ClCompile>
+    <ClCompile Include="Civilian.cpp">
+      <Filter>Civilians</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractState.cpp" />
+    <ClCompile Include="InventoryState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleState.cpp">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="MyString.h">
+      <Filter>MyContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDynamicArray.h">
+      <Filter>MyContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatCharacter.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>InventorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>InventorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>InventorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPotion.h">
+      <Filter>InventorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>InventorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Ork.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="RandInt.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTypes.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleCharacter.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.h">
+      <Filter>QuestSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="KillQuest.h">
+      <Filter>QuestSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GatherQuest.h">
+      <Filter>QuestSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Area.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyItem.h">
+      <Filter>InventorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TraderCivilian.h">
+      <Filter>Civilians</Filter>
+    </ClInclude>
+    <ClInclude Include="Civilian.h">
+      <Filter>Civilians</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractState.h" />
+    <ClInclude Include="InventoryState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameExecptions.h">
+      <Filter>Execptions</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleState.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MyContainers">
+      <UniqueIdentifier>{c2fda43d-c3ad-440b-a0c1-9533325b5834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{093a07bb-fdcf-492e-af35-57dfc991587f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{b9c177bd-f3b6-4f92-bb89-b062704bcad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{8f9e29b7-ac1f-4cff-b6df-07ec6f259256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{86d1b459-5e05-44b4-b34f-ec00f309fae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{37fc4f8d-54a2-4713-983e-7ca8294f7dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QuestSystem">
+      <UniqueIdentifier>{f6e119b2-3e65-4d8a-9cca-b8770bdc05d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{0282ad99-b3e9-4ffe-be87-5cebabb30058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InventorySystem">
+      <UniqueIdentifier>{24ca13bf-c636-4fc8-9d81-16e8df9ae5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Civilians">
+      <UniqueIdentifier>{ec72313f-40ce-4e51-9c34-22dac752e6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Execptions">
+      <UniqueIdentifier>{6e3eb253-349d-45cc-b93d-e3168ef49bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileManager">
+      <UniqueIdentifier>{e4a1b4c9-0c2f-4b3f-bede-382df1cf3ea0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
